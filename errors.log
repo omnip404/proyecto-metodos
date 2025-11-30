@@ -1,0 +1,207 @@
+2025-11-30 11:46:44,273 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 11:46:44,273 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 11:46:58,552 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 11:46:58,553 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 11:47:23,549 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 11:47:23,549 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 11:47:23,553 INFO  * Restarting with stat
+2025-11-30 11:47:24,037 WARNING  * Debugger is active!
+2025-11-30 11:47:24,045 INFO  * Debugger PIN: 206-147-248
+2025-11-30 11:47:44,318 INFO 127.0.0.1 - - [30/Nov/2025 11:47:44] "GET / HTTP/1.1" 200 -
+2025-11-30 11:47:44,705 INFO 127.0.0.1 - - [30/Nov/2025 11:47:44] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-30 11:47:44,770 INFO 127.0.0.1 - - [30/Nov/2025 11:47:44] "GET /static/js/vogel.js HTTP/1.1" 200 -
+2025-11-30 11:47:44,802 INFO 127.0.0.1 - - [30/Nov/2025 11:47:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-30 11:47:46,850 INFO 127.0.0.1 - - [30/Nov/2025 11:47:46] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 11:48:28,734 INFO 127.0.0.1 - - [30/Nov/2025 11:48:28] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 11:48:30,094 INFO 127.0.0.1 - - [30/Nov/2025 11:48:30] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 11:49:19,339 INFO 127.0.0.1 - - [30/Nov/2025 11:49:19] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 11:49:20,194 INFO 127.0.0.1 - - [30/Nov/2025 11:49:20] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 11:49:21,243 INFO 127.0.0.1 - - [30/Nov/2025 11:49:21] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 11:49:22,256 INFO 127.0.0.1 - - [30/Nov/2025 11:49:22] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 11:49:22,987 INFO 127.0.0.1 - - [30/Nov/2025 11:49:22] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 11:49:24,036 INFO 127.0.0.1 - - [30/Nov/2025 11:49:24] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 11:49:33,241 INFO 127.0.0.1 - - [30/Nov/2025 11:49:33] "GET / HTTP/1.1" 200 -
+2025-11-30 11:49:33,578 INFO 127.0.0.1 - - [30/Nov/2025 11:49:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-30 11:49:33,579 INFO 127.0.0.1 - - [30/Nov/2025 11:49:33] "GET /static/js/vogel.js HTTP/1.1" 200 -
+2025-11-30 11:49:35,048 INFO 127.0.0.1 - - [30/Nov/2025 11:49:35] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 11:49:52,747 INFO 127.0.0.1 - - [30/Nov/2025 11:49:52] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 11:50:19,101 INFO 127.0.0.1 - - [30/Nov/2025 11:50:19] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 11:50:24,255 INFO 127.0.0.1 - - [30/Nov/2025 11:50:24] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 11:52:03,010 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 11:52:03,010 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 11:52:07,300 INFO 127.0.0.1 - - [30/Nov/2025 11:52:07] "GET / HTTP/1.1" 200 -
+2025-11-30 11:52:07,699 INFO 127.0.0.1 - - [30/Nov/2025 11:52:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-30 11:52:07,754 INFO 127.0.0.1 - - [30/Nov/2025 11:52:07] "[36mGET /static/js/vogel.js HTTP/1.1[0m" 304 -
+2025-11-30 11:52:09,057 INFO 127.0.0.1 - - [30/Nov/2025 11:52:09] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 11:53:56,146 INFO 127.0.0.1 - - [30/Nov/2025 11:53:56] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 11:54:48,276 INFO 127.0.0.1 - - [30/Nov/2025 11:54:48] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 11:59:52,892 INFO 127.0.0.1 - - [30/Nov/2025 11:59:52] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:02:07,480 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 12:02:07,481 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 12:02:13,003 INFO 127.0.0.1 - - [30/Nov/2025 12:02:13] "GET / HTTP/1.1" 200 -
+2025-11-30 12:02:13,350 INFO 127.0.0.1 - - [30/Nov/2025 12:02:13] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-30 12:02:13,441 INFO 127.0.0.1 - - [30/Nov/2025 12:02:13] "GET /static/js/vogel.js HTTP/1.1" 200 -
+2025-11-30 12:02:14,648 INFO 127.0.0.1 - - [30/Nov/2025 12:02:14] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:02:50,139 INFO 127.0.0.1 - - [30/Nov/2025 12:02:50] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 12:04:58,805 INFO 127.0.0.1 - - [30/Nov/2025 12:04:58] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 12:05:41,940 INFO 127.0.0.1 - - [30/Nov/2025 12:05:41] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 12:13:43,892 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 12:13:43,893 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 12:13:49,306 INFO 127.0.0.1 - - [30/Nov/2025 12:13:49] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 12:13:51,084 INFO 127.0.0.1 - - [30/Nov/2025 12:13:51] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 12:13:52,929 INFO 127.0.0.1 - - [30/Nov/2025 12:13:52] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 12:13:54,277 INFO 127.0.0.1 - - [30/Nov/2025 12:13:54] "GET / HTTP/1.1" 200 -
+2025-11-30 12:13:54,797 INFO 127.0.0.1 - - [30/Nov/2025 12:13:54] "GET /static/js/vogel.js HTTP/1.1" 200 -
+2025-11-30 12:13:54,809 INFO 127.0.0.1 - - [30/Nov/2025 12:13:54] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-30 12:13:56,105 INFO 127.0.0.1 - - [30/Nov/2025 12:13:56] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:14:01,709 INFO 127.0.0.1 - - [30/Nov/2025 12:14:01] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:14:45,647 INFO 127.0.0.1 - - [30/Nov/2025 12:14:45] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:15:01,495 INFO 127.0.0.1 - - [30/Nov/2025 12:15:01] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:15:47,116 INFO 127.0.0.1 - - [30/Nov/2025 12:15:47] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 12:22:13,508 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 12:22:13,509 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 12:22:17,613 INFO 127.0.0.1 - - [30/Nov/2025 12:22:17] "GET / HTTP/1.1" 200 -
+2025-11-30 12:22:17,953 INFO 127.0.0.1 - - [30/Nov/2025 12:22:17] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-30 12:22:18,049 INFO 127.0.0.1 - - [30/Nov/2025 12:22:18] "GET /static/js/vogel.js HTTP/1.1" 200 -
+2025-11-30 12:22:19,704 INFO 127.0.0.1 - - [30/Nov/2025 12:22:19] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:22:25,365 INFO 127.0.0.1 - - [30/Nov/2025 12:22:25] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:22:52,591 INFO 127.0.0.1 - - [30/Nov/2025 12:22:52] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:25:32,693 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 12:25:32,693 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 12:25:43,806 INFO 127.0.0.1 - - [30/Nov/2025 12:25:43] "GET / HTTP/1.1" 200 -
+2025-11-30 12:25:44,165 INFO 127.0.0.1 - - [30/Nov/2025 12:25:44] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-30 12:25:44,237 INFO 127.0.0.1 - - [30/Nov/2025 12:25:44] "GET /static/js/vogel.js HTTP/1.1" 200 -
+2025-11-30 12:25:45,751 INFO 127.0.0.1 - - [30/Nov/2025 12:25:45] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:26:19,605 INFO 127.0.0.1 - - [30/Nov/2025 12:26:19] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:26:20,479 INFO 127.0.0.1 - - [30/Nov/2025 12:26:20] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:26:21,207 INFO 127.0.0.1 - - [30/Nov/2025 12:26:21] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:30:26,063 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 12:30:26,063 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 12:30:29,830 INFO 127.0.0.1 - - [30/Nov/2025 12:30:29] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:30:32,504 INFO 127.0.0.1 - - [30/Nov/2025 12:30:32] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:30:34,009 INFO 127.0.0.1 - - [30/Nov/2025 12:30:34] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:30:36,827 INFO 127.0.0.1 - - [30/Nov/2025 12:30:36] "GET / HTTP/1.1" 200 -
+2025-11-30 12:30:37,322 INFO 127.0.0.1 - - [30/Nov/2025 12:30:37] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-30 12:30:37,332 INFO 127.0.0.1 - - [30/Nov/2025 12:30:37] "GET /static/js/vogel.js HTTP/1.1" 200 -
+2025-11-30 12:30:38,736 INFO 127.0.0.1 - - [30/Nov/2025 12:30:38] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:31:27,079 INFO 127.0.0.1 - - [30/Nov/2025 12:31:27] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:31:27,959 INFO 127.0.0.1 - - [30/Nov/2025 12:31:27] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:31:28,522 INFO 127.0.0.1 - - [30/Nov/2025 12:31:28] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:39:09,772 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 12:39:09,772 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 12:39:14,588 INFO 127.0.0.1 - - [30/Nov/2025 12:39:14] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:39:17,259 INFO 127.0.0.1 - - [30/Nov/2025 12:39:17] "GET / HTTP/1.1" 200 -
+2025-11-30 12:39:17,736 INFO 127.0.0.1 - - [30/Nov/2025 12:39:17] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-30 12:39:17,754 INFO 127.0.0.1 - - [30/Nov/2025 12:39:17] "GET /static/js/vogel.js HTTP/1.1" 200 -
+2025-11-30 12:39:19,194 INFO 127.0.0.1 - - [30/Nov/2025 12:39:19] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:40:16,552 INFO 127.0.0.1 - - [30/Nov/2025 12:40:16] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 12:40:54,596 INFO 127.0.0.1 - - [30/Nov/2025 12:40:54] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 12:41:05,913 INFO 127.0.0.1 - - [30/Nov/2025 12:41:05] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 12:41:13,210 INFO 127.0.0.1 - - [30/Nov/2025 12:41:13] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:15:44,917 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 15:15:44,919 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 15:15:52,270 INFO 127.0.0.1 - - [30/Nov/2025 15:15:52] "GET / HTTP/1.1" 200 -
+2025-11-30 15:15:52,663 INFO 127.0.0.1 - - [30/Nov/2025 15:15:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-30 15:15:52,721 INFO 127.0.0.1 - - [30/Nov/2025 15:15:52] "[36mGET /static/js/vogel.js HTTP/1.1[0m" 304 -
+2025-11-30 15:15:52,742 INFO 127.0.0.1 - - [30/Nov/2025 15:15:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-30 15:15:54,864 INFO 127.0.0.1 - - [30/Nov/2025 15:15:54] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:16:51,493 INFO 127.0.0.1 - - [30/Nov/2025 15:16:51] "GET / HTTP/1.1" 200 -
+2025-11-30 15:16:51,748 INFO 127.0.0.1 - - [30/Nov/2025 15:16:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-30 15:16:51,826 INFO 127.0.0.1 - - [30/Nov/2025 15:16:51] "[36mGET /static/js/vogel.js HTTP/1.1[0m" 304 -
+2025-11-30 15:16:53,189 INFO 127.0.0.1 - - [30/Nov/2025 15:16:53] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:18:12,505 INFO 127.0.0.1 - - [30/Nov/2025 15:18:12] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:18:33,891 INFO 127.0.0.1 - - [30/Nov/2025 15:18:33] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:22:32,204 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 15:22:32,204 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 15:22:37,528 INFO 127.0.0.1 - - [30/Nov/2025 15:22:37] "GET / HTTP/1.1" 200 -
+2025-11-30 15:22:37,894 INFO 127.0.0.1 - - [30/Nov/2025 15:22:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-30 15:22:37,909 INFO 127.0.0.1 - - [30/Nov/2025 15:22:37] "GET /static/js/vogel.js HTTP/1.1" 200 -
+2025-11-30 15:23:07,265 INFO 127.0.0.1 - - [30/Nov/2025 15:23:07] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:27:01,492 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 15:27:01,492 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 15:27:01,492 INFO  * Restarting with stat
+2025-11-30 15:27:02,052 WARNING  * Debugger is active!
+2025-11-30 15:27:02,068 INFO  * Debugger PIN: 206-147-248
+2025-11-30 15:27:05,626 INFO 127.0.0.1 - - [30/Nov/2025 15:27:05] "GET / HTTP/1.1" 200 -
+2025-11-30 15:27:06,035 INFO 127.0.0.1 - - [30/Nov/2025 15:27:06] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-30 15:27:06,087 INFO 127.0.0.1 - - [30/Nov/2025 15:27:06] "[36mGET /static/js/vogel.js HTTP/1.1[0m" 304 -
+2025-11-30 15:27:28,338 INFO 127.0.0.1 - - [30/Nov/2025 15:27:28] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:27:55,789 INFO 127.0.0.1 - - [30/Nov/2025 15:27:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-30 15:27:56,142 INFO 127.0.0.1 - - [30/Nov/2025 15:27:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:28:36,670 INFO 127.0.0.1 - - [30/Nov/2025 15:28:36] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:28:40,988 INFO 127.0.0.1 - - [30/Nov/2025 15:28:40] "POST /resolver/noroeste HTTP/1.1" 200 -
+2025-11-30 15:28:54,898 INFO 127.0.0.1 - - [30/Nov/2025 15:28:54] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:29:37,669 INFO 127.0.0.1 - - [30/Nov/2025 15:29:37] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:30:20,356 INFO 127.0.0.1 - - [30/Nov/2025 15:30:20] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:30:59,205 INFO 127.0.0.1 - - [30/Nov/2025 15:30:59] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:33:51,722 INFO  * Detected change in 'c:\\Users\\Usuario\\Desktop\\obs videos\\proyecto-metodos\\app\\controllers\\resolver_controller.py', reloading
+2025-11-30 15:33:51,761 INFO  * Restarting with stat
+2025-11-30 15:33:52,220 WARNING  * Debugger is active!
+2025-11-30 15:33:52,225 INFO  * Debugger PIN: 206-147-248
+2025-11-30 15:34:59,944 INFO  * Detected change in 'c:\\Users\\Usuario\\Desktop\\obs videos\\proyecto-metodos\\app\\controllers\\resolver_controller.py', reloading
+2025-11-30 15:34:59,985 INFO  * Restarting with stat
+2025-11-30 15:35:00,518 WARNING  * Debugger is active!
+2025-11-30 15:35:00,535 INFO  * Debugger PIN: 206-147-248
+2025-11-30 15:35:10,178 INFO 127.0.0.1 - - [30/Nov/2025 15:35:10] "GET / HTTP/1.1" 200 -
+2025-11-30 15:35:10,535 INFO 127.0.0.1 - - [30/Nov/2025 15:35:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-30 15:35:10,617 INFO 127.0.0.1 - - [30/Nov/2025 15:35:10] "[36mGET /static/js/vogel.js HTTP/1.1[0m" 304 -
+2025-11-30 15:35:12,383 INFO 127.0.0.1 - - [30/Nov/2025 15:35:12] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:38:15,085 INFO 127.0.0.1 - - [30/Nov/2025 15:38:15] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:38:59,525 INFO 127.0.0.1 - - [30/Nov/2025 15:38:59] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:41:58,890 INFO 127.0.0.1 - - [30/Nov/2025 15:41:58] "GET / HTTP/1.1" 200 -
+2025-11-30 15:41:59,155 INFO 127.0.0.1 - - [30/Nov/2025 15:41:59] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-30 15:41:59,226 INFO 127.0.0.1 - - [30/Nov/2025 15:41:59] "GET /static/js/vogel.js HTTP/1.1" 200 -
+2025-11-30 15:42:03,686 INFO 127.0.0.1 - - [30/Nov/2025 15:42:03] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:42:06,683 INFO 127.0.0.1 - - [30/Nov/2025 15:42:06] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:42:25,290 INFO 127.0.0.1 - - [30/Nov/2025 15:42:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-30 15:42:25,306 INFO 127.0.0.1 - - [30/Nov/2025 15:42:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:43:26,128 INFO 127.0.0.1 - - [30/Nov/2025 15:43:26] "GET / HTTP/1.1" 200 -
+2025-11-30 15:43:26,381 INFO 127.0.0.1 - - [30/Nov/2025 15:43:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-30 15:43:26,476 INFO 127.0.0.1 - - [30/Nov/2025 15:43:26] "[36mGET /static/js/vogel.js HTTP/1.1[0m" 304 -
+2025-11-30 15:43:27,766 INFO 127.0.0.1 - - [30/Nov/2025 15:43:27] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:46:09,938 INFO 127.0.0.1 - - [30/Nov/2025 15:46:09] "GET / HTTP/1.1" 200 -
+2025-11-30 15:46:10,177 INFO 127.0.0.1 - - [30/Nov/2025 15:46:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-30 15:46:10,273 INFO 127.0.0.1 - - [30/Nov/2025 15:46:10] "GET /static/js/vogel.js HTTP/1.1" 200 -
+2025-11-30 15:46:11,814 INFO 127.0.0.1 - - [30/Nov/2025 15:46:11] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:46:54,699 INFO 127.0.0.1 - - [30/Nov/2025 15:46:54] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 15:49:48,018 INFO 127.0.0.1 - - [30/Nov/2025 15:49:48] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 16:01:07,818 INFO 127.0.0.1 - - [30/Nov/2025 16:01:07] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 16:01:13,965 INFO 127.0.0.1 - - [30/Nov/2025 16:01:13] "GET / HTTP/1.1" 200 -
+2025-11-30 16:01:14,311 INFO 127.0.0.1 - - [30/Nov/2025 16:01:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-30 16:01:14,311 INFO 127.0.0.1 - - [30/Nov/2025 16:01:14] "GET /static/js/vogel.js HTTP/1.1" 200 -
+2025-11-30 16:01:15,274 INFO 127.0.0.1 - - [30/Nov/2025 16:01:15] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 16:05:37,754 INFO 127.0.0.1 - - [30/Nov/2025 16:05:37] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 16:06:02,206 INFO 127.0.0.1 - - [30/Nov/2025 16:06:02] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 16:07:26,669 INFO  * Detected change in 'c:\\Users\\Usuario\\Desktop\\obs videos\\proyecto-metodos\\app\\logic\\vogel.py', reloading
+2025-11-30 16:07:26,747 INFO  * Restarting with stat
+2025-11-30 16:07:27,332 WARNING  * Debugger is active!
+2025-11-30 16:07:27,347 INFO  * Debugger PIN: 206-147-248
+2025-11-30 16:07:44,844 INFO  * Detected change in 'c:\\Users\\Usuario\\Desktop\\obs videos\\proyecto-metodos\\app\\logic\\vogel.py', reloading
+2025-11-30 16:07:44,891 INFO  * Restarting with stat
+2025-11-30 16:07:45,385 WARNING  * Debugger is active!
+2025-11-30 16:07:45,398 INFO  * Debugger PIN: 206-147-248
+2025-11-30 16:11:22,518 INFO 127.0.0.1 - - [30/Nov/2025 16:11:22] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 16:13:32,987 INFO 127.0.0.1 - - [30/Nov/2025 16:13:32] "GET / HTTP/1.1" 200 -
+2025-11-30 16:13:33,345 INFO 127.0.0.1 - - [30/Nov/2025 16:13:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-30 16:13:33,430 INFO 127.0.0.1 - - [30/Nov/2025 16:13:33] "GET /static/js/vogel.js HTTP/1.1" 200 -
+2025-11-30 16:13:38,652 INFO 127.0.0.1 - - [30/Nov/2025 16:13:38] "GET / HTTP/1.1" 200 -
+2025-11-30 16:13:38,988 INFO 127.0.0.1 - - [30/Nov/2025 16:13:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-30 16:13:38,988 INFO 127.0.0.1 - - [30/Nov/2025 16:13:38] "[36mGET /static/js/vogel.js HTTP/1.1[0m" 304 -
+2025-11-30 16:16:51,658 INFO 127.0.0.1 - - [30/Nov/2025 16:16:51] "GET / HTTP/1.1" 200 -
+2025-11-30 16:16:51,916 INFO 127.0.0.1 - - [30/Nov/2025 16:16:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-30 16:16:51,986 INFO 127.0.0.1 - - [30/Nov/2025 16:16:51] "GET /static/js/vogel.js HTTP/1.1" 200 -
+2025-11-30 16:16:52,799 INFO 127.0.0.1 - - [30/Nov/2025 16:16:52] "POST /resolver/vogel HTTP/1.1" 200 -
+2025-11-30 16:17:33,661 INFO 127.0.0.1 - - [30/Nov/2025 16:17:33] "POST /resolver/vogel HTTP/1.1" 200 -

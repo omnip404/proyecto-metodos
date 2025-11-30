@@ -1,0 +1,452 @@
+/* static/css/styles.css */
+
+:root{
+    --brand-blue: #1e5eff;    /* títulos */
+    --text-black: #0b0b0b;    /* texto principal (en lugar de verde fosfor.) */
+    --added-red: #d9534f;     /* color para lo que se agrega / ficticia */
+    --muted-bg: #ffffff;      /* fondo claro para resultados */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6fa;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: var(--brand-blue);
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+textarea, input {
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fafafa;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* Resultado principal: texto ahora en negro sobre fondo claro */
+#resultado {
+    background: var(--muted-bg);
+    color: var(--text-black);
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: Consolas, monospace;
+    white-space: normal; /* permitir wrap para tablas y texto */
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+.minz-box {
+    margin-top: 14px;
+    padding: 16px;
+    background: linear-gradient(90deg,#fff 0%, #f0f6ff 100%);
+    border-radius: 12px;
+    border: 2px solid #cfe0ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    box-shadow: 0 8px 30px rgba(30,90,255,0.06);
+    position: sticky;
+    top: 12px; /* se mantiene visible al hacer scroll */
+    z-index: 40;
+}
+.minz-box .label {
+    font-size: 14px;
+    color: var(--brand-blue);
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.minz-box .minz-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.minz-box .minz-total {
+    font-size: 28px; /* mucho más visible */
+    font-weight: 900;
+    color: var(--text-black);
+    margin-top: 4px;
+}
+.minz-box .minz-right {
+    text-align: right;
+    min-width: 220px;
+}
+.minz-box .minz-formula {
+    font-size: 14px;
+    color: #444;
+    font-style: italic;
+    margin-bottom: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.minz-box .minz-breakdown {
+    font-size: 13px;
+    color: #666;
+    max-height: 60px;
+    overflow: auto;
+}
+
+/* Resultado limpio (imagen 9) */
+.resultado-limpio {
+    margin-top: 12px;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px dashed #e2e8f0;
+    color: #222;
+    font-family: Arial, sans-serif;
+    display: block;
+}
+.resultado-limpio .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 4px;
+    align-items: center;
+}
+.resultado-limpio .small {
+    font-size: 13px;
+    color: #555;
+}
+
+/* Distribución visual (imagen 10) */
+.distribucion-visual {
+    margin-top: 12px;
+}
+.distrib-table {
+    border-collapse: collapse;
+    margin: 6px 0;
+}
+.distrib-table td, .distrib-table th {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    min-width: 56px;
+    position: relative;
+    background: #fff;
+}
+.distrib-assign {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+    background: rgba(76,175,80,0.12);
+    color: #1b5e20;
+    font-weight: 700;
+    padding: 4px 6px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+.distrib-assign svg { display:inline-block; vertical-align:middle; }
+
+/* Flecha lateral (visual hint) */
+.distrib-table td::after {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 2px;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+}
+.distrib-table td.assigned::after {
+    background: #4caf50;
+}
+
+/* Encabezados pequeños */
+.distrib-table th {
+    background: #f5f7ff;
+    color: #333;
+    font-weight: 700;
+}
+
+/* contenedor secuencia de pasos (imagen 1..8) */
+.steps-sequence {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 14px;
+    margin-top: 18px;
+    width: 100%;
+    align-items: start;
+    justify-items: stretch;
+}
+
+/* cada visual paso compacto - MÁS GRANDE y más presencia */
+.step-visual {
+    min-width: 160px;
+    max-width: 420px;
+    padding: 14px;
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #e9eef9;
+    box-shadow: 0 6px 18px rgba(12,15,20,0.04);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* asegurar que el badge de número se posicione respecto al contenedor */
+.step-visual { position: relative; }
+
+/* base tenue que siempre muestra el costo para evitar celdas vacías */
+.cell-base {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    font-size: 12px;
+    color: #9aa0a6;
+    opacity: 0.9;
+    pointer-events: none;
+}
+
+/* pequeño punto usado en la variante 4 */
+.cell-dot {
+    width: 8px;
+    height: 8px;
+    background: #cfcfcf;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 12px;
+    opacity: 0.9;
+}
+
+/* asegurar que cuadro-elegida y assign estén por encima de la base */
+.step-cell .cuadro-assign,
+.step-cell .cuadro-assign-small {
+    z-index: 2;
+}
+
+/* si prefieres base más tenue, reducir opacidad */
+.cell-base { opacity: 0.6; }
+
+/* número de paso visible, pequeño, en esquina */
+.step-visual .step-number {
+    position: absolute;
+    margin-top: -6px;
+    margin-left: 8px;
+    background: var(--brand-blue);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 999px;
+    box-shadow: 0 2px 6px rgba(43,108,255,0.16);
+}
+
+/* celdas dentro de cada visual: mucho más grandes */
+.step-visual .cuadro-compacto td {
+    width: clamp(40px, 8vw, 72px);
+    height: clamp(40px, 8vw, 72px);
+    font-size: clamp(12px, 1.2vw, 16px);
+}
+
+/* cantidad asignada grande y prominente en la celda seleccionada (tamaño aumentado) */
+.cuadro-assign {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 18px;       /* aumentado */
+    color: var(--text-black);
+    pointer-events: none;
+}
+
+/* pequeño assign visible en variante 8 (ligeramente mayor) */
+.step-visual .cuadro-assign-small {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 16px;       /* aumentado */
+    color: #1b5e20;
+}
+
+/* mini badge para oferta/demanda mostrada en step 5/6 (ajustes para tamaño) */
+.step-visual .mini-badge {
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    background: rgba(43,108,255,0.08);
+    color: #2b6cff;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+/* tooltip cursor */
+.step-visual td[title] { cursor: help; }
+
+/* responsivo: reducir si pantalla pequeña pero mantener nota visual */
+@media (max-width: 900px) {
+    .step-visual { min-width: auto; padding: 10px; }
+    .step-visual .cuadro-compacto td { width: 44px; height: 44px; }
+    .cuadro-assign { font-size: 16px; }
+}
+
+/* Estilos del overlay para detalle de pasos */
+.step-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(20,24,30,0.88);
+    color: #111;
+    display: none;
+    z-index: 9999;
+    align-items: stretch;
+    justify-content: center;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.step-overlay .overlay-topbar {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.overlay-btn {
+    background: rgba(30,94,255,0.12);
+    color: #fff;
+    border: 1px solid rgba(30,94,255,0.18);
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.overlay-title {
+    color: var(--brand-blue);
+    font-size: 18px;
+    font-weight: 800;
+    margin-left: 8px;
+}
+
+.step-overlay .overlay-content {
+    display: flex;
+    gap: 18px;
+    width: 100%;
+    height: calc(100% - 56px);
+    box-sizing: border-box;
+}
+
+.overlay-left, .overlay-right {
+    background: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.overlay-left {
+    flex: 1.1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.overlay-right {
+    flex: 0.9;
+    overflow: auto;
+}
+
+.overlay-table {
+    border-collapse: collapse;
+    background: #fff;
+}
+
+.overlay-table td {
+    width: 72px;
+    height: 72px;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 4px;
+}
+
+.overlay-cell-chosen {
+    background: #dff7e6;
+    border-color: #66bb6a;
+    box-shadow: 0 4px 18px rgba(34,197,94,0.08) inset;
+}
+
+.overlay-assign-badge {
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+    background: rgba(217,83,79,0.08); /* uso rojo tenue para marcar asignación puntual */
+    color: var(--text-black);
+    padding: 6px 8px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.overlay-section-title { font-weight: 800; margin-top: 8px; margin-bottom: 6px; }
+.pen-list { margin: 0 0 8px 18px; color: #333; }
+.overlay-info p { margin: 6px 0; color: #222; }
+.overlay-error { margin-top: 10px; color: crimson; font-weight: 800; }
+
+/* mejorar legibilidad de explicaciones (resaltado de cambios en rojo) */
+.explanation {
+    color: var(--text-black);
+    font-weight: 600;
+}
+.explanation .added { color: var(--added-red); font-weight:800; }
+
+/* responsive */
+@media (max-width: 900px) {
+    .steps-sequence {
+        grid-template-columns: 1fr;
+    }
+    .step-visual { min-width: auto; padding: 10px; }
+    .overlay-content { flex-direction: column; height: auto; }
+}

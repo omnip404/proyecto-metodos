@@ -1,0 +1,60 @@
+<!-- templates/resolver.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Método de Vogel</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Método de Aproximación</h1>
+
+    <h3>Ingresar datos</h3>
+
+    <label>Método:</label>
+    <select id="metodo">
+        <option value="vogel">Vogel (VAM)</option>
+        <option value="noroeste">Noroeste (North-West)</option>
+        <!-- en el futuro: <option value="russell">Russell</option> -->
+    </select>
+
+    <label>Costos (matriz JSON):</label>
+    <textarea id="costos" rows="5">[[8,6,10],[9,7,4],[3,4,2]]</textarea>
+
+    <label>Oferta (lista JSON):</label>
+    <input id="oferta" value="[20,30,25]">
+
+    <label>Demanda (lista JSON):</label>
+    <input id="demanda" value="[30,35,10]">
+
+    <button id="btnResolver">Resolver</button>
+
+    <!-- NUEVO: Vista previa de la matriz ingresada -->
+    <h3>Vista previa de la matriz</h3>
+    <div id="input-preview" style="margin-bottom:12px;"></div>
+
+    <h2>Resultado</h2>
+
+    <!-- Área: visual principal con costos -->
+    <div id="tabla-visual"></div>
+
+    <!-- Nuevo: MinZ compacto (imagen 8) -->
+    <div id="minZ" class="minz-box" aria-live="polite"></div>
+
+    <!-- Nuevo: Resultado limpio (imagen 9) -->
+    <div id="resultado-limpio" class="resultado-limpio"></div>
+
+    <!-- Nuevo: Distribución visual estilo imagen 10 -->
+    <div id="distribucion-visual" class="distribucion-visual"></div>
+
+    <!-- Área de pasos detallados (o cuadros compactos) -->
+    <div id="resultado"></div>
+</div>
+
+<script src="/static/js/vogel.js"></script>
+
+</body>
+</html>
